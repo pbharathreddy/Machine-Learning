@@ -23,3 +23,4 @@ Note-A pre-requisite to understanding the below content will be a basic statisti
   4. Test the algorithims performance with the test data. 
   5 Use the algorithm to make future predictions.
   
+The best way to learn anything is through hands on experience. So we are now going to impliment the above steps on a data set. For this purpose we are going to use a dataset available on kaggle (https://www.kaggle.com/arejet/simple-linear-regression). 
