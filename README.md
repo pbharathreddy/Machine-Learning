@@ -33,40 +33,40 @@ The best way to learn anything is through hands on experience. So we are now goi
   1. Replace the null vaules with the average of the particular field or column.
   2. If the dataset that we have is large enough then we can just drop the row with the null value.
 #### Step 3: draw the best fit line for the data.
-import numpy as np
-from statistics import mean
-from matplotlib import pyplot as plt
+  import numpy as np
+  from statistics import mean
+  from matplotlib import pyplot as plt
 
-def findSlope(xs,ys):
-    xm = mean(xs)
-    ym = mean(ys)
-    xy = np.append(xs,ys)
-    xym = mean(xy)
-    xSm = mean(np.square(xs))
+  def findSlope(xs,ys):
+      xm = mean(xs)
+      ym = mean(ys)
+      xy = np.append(xs,ys)
+      xym = mean(xy)
+      xSm = mean(np.square(xs))
 
-    slope = ((xm*ym) - xym)/(xSm - xm*xm)
+      slope = ((xm*ym) - xym)/(xSm - xm*xm)
 
-    b = ym - slope*xm
-    return slope,b
+      b = ym - slope*xm
+      return slope,b
 
-data = [[2,3], [3,5], [1,2], [8,9], [7,8]]
+  data = [[2,3], [3,5], [1,2], [8,9], [7,8]]
 
-xs = []
-xs.append([data[i][0] for i in range(len(data))])
+  xs   = []
+  xs.append([data[i][0] for i in range(len(data))])
 
-ys = []
-ys.append([data[i][1] for i in range(len(data))])
+  ys = []
+  ys.append([data[i][1] for i in range(len(data))])
 
-xs = np.array(xs[0])
-ys = np.array(ys[0])
+  xs = np.array(xs[0])
+  ys = np.array(ys[0])
 
-slope, b = findSlope(xs,ys)
+  slope, b = findSlope(xs,ys)
 
-lxs = []
-lxs.append([(slope*i + b) for i in xs])
+  lxs = []
+  lxs.append([(slope*i + b) for i in xs])
 
-lxs = np.array(lxs[0])
+  lxs = np.array(lxs[0])
 
-plt.scatter(xs,ys)
-plt.plot(xs,lxs)
-plt.show()
+  plt.scatter(xs,ys)
+  plt.plot(xs,lxs)
+  plt.show()
