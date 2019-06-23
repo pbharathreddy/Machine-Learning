@@ -33,6 +33,7 @@ The best way to learn anything is through hands on experience. So we are now goi
   1. Replace the null vaules with the average of the particular field or column.
   2. If the dataset that we have is large enough then we can just drop the row with the null value.
 #### Step 3: draw the best fit line for the data.
+  '''
   import numpy as np
   from statistics import mean
   from matplotlib import pyplot as plt
@@ -70,3 +71,4 @@ The best way to learn anything is through hands on experience. So we are now goi
   plt.scatter(xs,ys)
   plt.plot(xs,lxs)
   plt.show()
+'''
