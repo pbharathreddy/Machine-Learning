@@ -74,3 +74,14 @@ The best way to learn anything is through hands on experience. So we are now goi
 ```
 ## Result:
 ![alt text](images/regressionLine.png)
+
+Now we can see the best fit line in the above image. We can now plot new data points with the help of this line. For example if we were given a point along the x-axis all we would have to do is replace x the line equation (y = m * x + c) of the above line to predict y.
+
+```
+#point to predict
+predictx = 4
+predicty = slope*predictx + b
+```
+![alt text](images/regressionLinePredict.png)
+
+
