@@ -11,7 +11,7 @@ Note-A pre-requisite to understanding the below content will be a basic statisti
 ## Now how to go about doing all that is stated above?
 
   To get have better intution and uderstanding of what we should be doing let's take into cosideration a hypothetical company Company X. Company X is very new to that market and started of this a IPO(initial public offering) of 1$. The share value of the company has been growing at a steady pase of 10$ every month. Now with the help of some simple linear alzebra we can easly model a graph or line that will best depict this growth. Now if we were to represent the above example in the form of a linear equation it would be Y = 10 * X + 1. We can now use this line to make predictions about the future share value of company X. Well in this case we will be able to exactly predict the share price of company X at every month but unfortunately real world senarions are not this forgiving. Thus we resort to making best possible predictions. This we term as linear regression. This is one of the fundaments of machine learning and this is going to be our entry point into machine learning.  
-![alt text](images/yx10.png | width = 100)
+![alt text](images/yx10.png) <!-- .element height="50%" width="50%" -->
   
 ### So what is linear regression?
 
@@ -73,7 +73,7 @@ The best way to learn anything is through hands on experience. So we are now goi
   plt.show()
 ```
 ## Result:
-![alt text](images/regressionLine.png | width = 100)
+![alt text](images/regressionLine.png) <!-- .element height="50%" width="50%" -->
 
 Now we can see the best fit line in the above image. We can now plot new data points with the help of this line. For example if we were given a point along the x-axis all we would have to do is replace x the line equation (y = m * x + c) of the above line to predict y.
 
@@ -82,6 +82,6 @@ Now we can see the best fit line in the above image. We can now plot new data po
 predictx = 4
 predicty = slope*predictx + b
 ```
-![alt text](images/regressionLinePredict.png | width = 100)
+![alt text](images/regressionLinePredict.png) <!-- .element height="50%" width="50%" -->
 
 
