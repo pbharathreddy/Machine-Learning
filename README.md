@@ -23,4 +23,50 @@ Note-A pre-requisite to understanding the below content will be a basic statisti
   4. Test the algorithims performance with the test data. 
   5 Use the algorithm to make future predictions.
   
-The best way to learn anything is through hands on experience. So we are now going to impliment the above steps on a data set. For this purpose we are going to use a dataset available on kaggle (https://www.kaggle.com/arejet/simple-linear-regression). 
+The best way to learn anything is through hands on experience. So we are now going to impliment the above steps on a data set. For this purpose we are going to create random data points and draw a regression line on them. 
+
+#### Step 1: create data.
+  Create random points. You can use the random function for this or just create list of random points. In this case let the points be:
+  [[2,3], [3,5], [1.2], [8,9], [7,8]].
+#### Step 2: clean the data.
+  The data in this case has no nulls hence there is no reason remove any null values. If there were nulls we could do the following things. 
+  1. Replace the null vaules with the average of the particular field or column.
+  2. If the dataset that we have is large enough then we can just drop the row with the null value.
+#### Step 3: draw the best fit line for the data.
+import numpy as np
+from statistics import mean
+from matplotlib import pyplot as plt
+
+def findSlope(xs,ys):
+    xm = mean(xs)
+    ym = mean(ys)
+    xy = np.append(xs,ys)
+    xym = mean(xy)
+    xSm = mean(np.square(xs))
+
+    slope = ((xm*ym) - xym)/(xSm - xm*xm)
+
+    b = ym - slope*xm
+    return slope,b
+
+data = [[2,3], [3,5], [1,2], [8,9], [7,8]]
+
+xs = []
+xs.append([data[i][0] for i in range(len(data))])
+
+ys = []
+ys.append([data[i][1] for i in range(len(data))])
+
+xs = np.array(xs[0])
+ys = np.array(ys[0])
+
+slope, b = findSlope(xs,ys)
+
+lxs = []
+lxs.append([(slope*i + b) for i in xs])
+
+lxs = np.array(lxs[0])
+
+plt.scatter(xs,ys)
+plt.plot(xs,lxs)
+plt.show()
