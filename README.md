@@ -73,4 +73,4 @@ The best way to learn anything is through hands on experience. So we are now goi
   plt.show()
 ```
 ## Result:
-![alt text](images/regessionLine.png)
+![alt text](images/regressionLine.png)
