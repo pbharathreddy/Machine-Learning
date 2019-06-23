@@ -72,3 +72,5 @@ The best way to learn anything is through hands on experience. So we are now goi
   plt.plot(xs,lxs)
   plt.show()
 ```
+## Result:
+![alt text](images/regessionLine.png)
