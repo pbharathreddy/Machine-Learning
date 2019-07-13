@@ -84,4 +84,30 @@ predicty = slope*predictx + b
 ```
 ![alt text](images/regressionLinePredict.png)
 
+### Creating own data.
+Now lefts create our own data set over which we can test our algorithim. While doing so let's go through some important concepts that are necessary while analyzing the data:
+1. Variance, this will give us the range of the data. Variance informally is the measure of how far a set of numbers are spread out from their mean.
+2. Correlation, this lets us predict the slope of the graph (best fit regression line). If correlation is +ve then the graph has a +ve slope and vise-versa.
+Now lets get into making our own data:
+```
+def rData(count,step,variance,correlation=False):
+  result = []
+  y = []
+  val = 1
+  for i in range(count):
+    y.append(random.randrange(-variance,variance)+val)
+    if correlation and correlation=="pos":
+      val+=step
+    elif correlation and correlation=="neg":
+      val-=step
+  x = [i for i in range(len(y))]
+
+  [result.append([x[i],y[i]]) for i in range(len(x))]
+  return result
+
+data = rData(70,1,50,"neg")
+```
+## Result
+![alt text](images/regressionLinePredictRandomData.png)
+
 
