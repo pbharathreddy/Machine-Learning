@@ -1,7 +1,7 @@
 ## Now how to go about doing all that is stated above?
 
   To get have better intution and uderstanding of what we should be doing let's take into cosideration a hypothetical company Company X. Company X is very new to that market and started of this a IPO(initial public offering) of 1$. The share value of the company has been growing at a steady pase of 10$ every month. Now with the help of some simple linear alzebra we can easly model a graph or line that will best depict this growth. Now if we were to represent the above example in the form of a linear equation it would be Y = 10 * X + 1. We can now use this line to make predictions about the future share value of company X. Well in this case we will be able to exactly predict the share price of company X at every month but unfortunately real world senarions are not this forgiving. Thus we resort to making best possible predictions. This we term as linear regression. This is one of the fundaments of machine learning and this is going to be our entry point into machine learning.  
-![alt text](images/yx10.png)
+![alt text](../images/yx10.png)
   
 ### So what is linear regression?
 
@@ -63,7 +63,7 @@ The best way to learn anything is through hands on experience. So we are now goi
   plt.show()
 ```
 ## Result:
-![alt text](images/regressionLine.png)
+![alt text](../images/regressionLine.png)
 
 Now we can see the best fit line in the above image. We can now plot new data points with the help of this line. For example if we were given a point along the x-axis all we would have to do is replace x the line equation (y = m * x + c) of the above line to predict y.
 
@@ -72,7 +72,7 @@ Now we can see the best fit line in the above image. We can now plot new data po
 predictx = 4
 predicty = slope*predictx + b
 ```
-![alt text](images/regressionLinePredict.png)
+![alt text](../images/regressionLinePredict.png)
 
 ### Creating own data.
 Now lefts create our own data set over which we can test our algorithim. While doing so let's go through some important concepts that are necessary while analyzing the data:
@@ -98,4 +98,4 @@ def rData(count,step,variance,correlation=False):
 data = rData(70,1,50,"neg")
 ```
 ## Result
-![alt text](images/regressionLinePredictRandomData.png)
+![alt text](../images/regressionLinePredictRandomData.png)
