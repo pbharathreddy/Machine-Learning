@@ -1,21 +1,19 @@
 # Machine-Learning
 _A detailed guid into machine learning with python._
 
-**Note:-** A pre-requisite to understanding the below content will be a basic statistics and probability, also fundamentals of Python. I will try to keep that math simple and will explain any tangents as we progress. 
+**Note:-** A pre-requisite to understanding the below content is basic knowledge of statistics and probability, also fundamentals of Python. I will try to keep that math simple and will explain any tangents as we progress. 
 
 ## Introduction
-**M**achine learning in simple words is when a machine without getting any directions from us, learns the tasks on its own!  This is achieved with the help of the algorithms and statistical modeling; it solves problems by identifying patterns and making inferences. First, we need to write an algorithm that trains itself from large data to identify patterns and then superimposing these patterns on new data in question.
+**M**achine learning simply put is when a machine learns to perform tasks without explicitly being programmed to do so! This is achieved with the help of the algorithms and statistical modeling; it solves problems by identifying patterns and making inferences. First, we need to write an algorithm that trains itself from large data to identify patterns and then superimposing these patterns on new data in question.
 
-You might think, what is the requirement to learn about ML, or even why a machine should learn, because at the end of the day it will be threatening for our jobs and all, right? But think about those inhuman jobs or jobs where accuracy is a deciding factor for thousands of lives. We need more yin and yang between humans and machines.
+You might think, what is the requirement to learn about ML, or even why a machine should learn, because at the end of the day it will be threat to our jobs, right? But, we need to understant the sector that ML predominantly influences. ML is not on the hunt for jobs, it's only out to take over the mundane and repetitive task that also require great accuracy and precision. This gives us humans more time that can be invested in things that are more intellectually demanding (And honestly ask yourself, would you rather let your emotions translate into a captivating song or spend a day cutting a peice of cloth precisely to one tenth of a millimeter). Let's face it there are certain things that machines are just better at than us and vice-versa. That is why we need to find a state of equilibrium or yin and yang between humans and machines.
 
 ![AI](images/ai.jpg)
 
 The main element required for the machine to learn is, well, something which is to be learned. And, that something is known as **data**.
 
-
 >“Data! data! data!" he cried impatiently. "I can't make bricks without clay.”
->― Arthur Conan Doyle, The Adventure of the Copper Beeches (Sherlock Holmes)
- 
+>― Arthur Conan Doyle, The Adventure of the Copper Beeches (Sherlock Holmes) 
  
 Since the very beginning, we have recognized the importance of the data, that’s why we developed statistical methods, surveys and stuff to collect the data and understand how to improve the current system, what to update, what to omit, etc. Initially, we did it using pen and paper, so the quantity of the data at the end, would not be of enough size and it would not give us a profound result.
 Then computers came and with it came the thing which changed the field in a sense of reachability, the internet! Through the internet, it was easy to reach people out there, i.e. without going door to door asking them about surveys, they were able to reach a large amount of audience. That way, the amount of data got increased.
