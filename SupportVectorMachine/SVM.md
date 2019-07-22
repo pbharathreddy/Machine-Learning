@@ -1,10 +1,10 @@
 # Support Vector Machine
 
 Support Vector Machine or svm is a convex optimization problem. 
-'''
+
+```
   import matplotlib.pyplot as plt
   import numpy as np
-
   class SVM:
       def __init__(self, data):
           self.fit(data)
@@ -107,6 +107,6 @@ Support Vector Machine or svm is a convex optimization problem.
   data = {1: [[-3, 2], [2, 0], [0, 2]], -1: [[7, 8], [12, 9], [6, 7],[7,6]]}
   temp = SVM(data)
   temp.visualize(data, [0, 0])
-'''
+```
 
 ![svm](../images/svm.png)
