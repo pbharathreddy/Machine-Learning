@@ -9,7 +9,6 @@ _A detailed guid into machine learning with python._
 You might think, what is the requirement to learn about ML, or even why a machine should learn, because at the end of the day it will be threatening for our jobs and all, right? But think about those inhuman jobs or jobs where accuracy is a deciding factor for thousands of lives. We need more yin and yang between humans and machines.
 
 ![AI](images/ai.jpg)
-<hr/>
 
 The main element required for the machine to learn is, well, something which is to be learned. And, that something is known as **data**.
 
@@ -32,13 +31,13 @@ Let’s take an example to understand the phases of learning, say we want to tra
 ### Phase 1:
 It figures out that it has detected a human figure but it can’t distinguish between them yet
 
-![Phase 1](images/phase1.JPG)
+![Phase 1](images/1.1.JPG)
 
 
 ### Phase 2:
 In the last phase, it took only 1 input, that is the shape of the object, now it is taking 2, the expressions as well, so now it is able to distinguish between 2 different entries
 
-![Phase 2](images/phase2.JPG)
+![Phase 2](images/1.2.JPG)
 
 ### Phased 3:
 In this phase, the model will gather the predicted data for future reference (training), It labels these findings so here the individual and expressions are known as **features** and Person 1-2  is known as **labels** and the gathered data is called an **observation**, in simple words, rows of a database.
