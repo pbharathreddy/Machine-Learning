@@ -18,6 +18,6 @@ A classification problem is when our y, the output variable, the dependent varia
 <br/>
 Enough of spoon-feeding! Now let’s go to the second algorithm, unsupervised!
 
-![Sppon-feeding image](../images/sppon-feeding.jpg)
+![Spoon-feeding image](../images/spoon-feeding.jpg)
 
 ## 2. Unsupervised learning:
