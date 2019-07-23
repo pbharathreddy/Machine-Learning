@@ -48,6 +48,7 @@ That is how a machine learning model learns, just like a human child! Now there 
 We will discuss these types in the next chapter.
 
 <hr/>
- 
+
+[Next Chapter: Types of ML Algorithms](https://github.com/pbharathreddy/Machine-Learning/tree/master/typesOfMLAlgorithms) 
  
 
