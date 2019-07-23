@@ -1,3 +1,5 @@
+[Previous Chapter: Introduction](https://github.com/pbharathreddy/Machine-Learning/blob/master/README.md)
+
 # Types of Machine Learning Algorithms
 There are mainly **3** types of algorithms a machine learning model can be trained:
       1. Supervised 
