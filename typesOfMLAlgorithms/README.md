@@ -15,9 +15,9 @@ So, the problem might be of the following type:
 ## 1. Supervised learning:
 Supervised learning is the first type of problem discussed above. When a model is trained with **features** (problem statement in our example) **along** with the **labels** (solutions of the problem), it is known as supervised learning. It is used to solve types of problems like **classification and regression**.
 A classification problem is when our y, the output variable, the dependent variable or any name which you like the best, is a **categorical** variable and using the features you have to predict the label belonging to one class or the other, while a **regression** problem is when the label is a continuous value and not belonging to a certain class, having a big possibility of values. More on that later.
-<br/>
-Enough of spoon-feeding! Now let’s go to the second algorithm, unsupervised!
+
 
 ![Spoon-feeding image](../images/spoon-feeding.jpg)
+Enough of spoon-feeding! Now let’s go to the second algorithm, unsupervised!
 
 ## 2. Unsupervised learning:
