@@ -2,9 +2,9 @@
 
 # Types of Machine Learning Algorithms
 There are mainly **3** types of algorithms a machine learning model can be trained:
-      1. Supervised 
-      1. Unsupervised
-      1. Reinforcement
+1. Supervised 
+1. Unsupervised
+1. Reinforcement
 
 Let’s take an example to understand these terms:
 
