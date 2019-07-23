@@ -9,7 +9,7 @@ There are mainly **3** types of algorithms a machine learning model can be train
 Let’s take an example to understand these terms:
 
 Think about the time when you were a school kid, try to recreate the picture of your typical Math classroom. Even today, I get freaked out to imagine my teacher calling me to solve an example on the blackboard in front of my class! 
-So, the problem might be of the following type:
+So, the problem which you are going to solve on the board might be of the following type:
 * Your teacher has solved a problem on the blackboard and has asked you to solve a **similar** one! Hmm, not bad actually. This teacher of yours sounds really good!
 * Your teacher has just written a problem and the solution is, well, you have to find out by **yourself**, the only hint is more amount of similar kind of problems given. Your task is to figure out the pattern in those problems and to come up with a solution. Sounds like fun and challenging, this teacher has their own way of teaching!
 * Your teacher calls you to solve a problem **without** giving you any hint, you just have to start solving it, they will give you a chocolate if you going on a right track  or else they will give you an extra assignment as a punishment, so you have to figure out how to get more chocolates and fewer assignments as possible, i.e which similar kind of steps to repeat to get a **reward**, this sounds the hardest, your teacher is simply a legend!!
