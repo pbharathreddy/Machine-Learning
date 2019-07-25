@@ -49,6 +49,6 @@ We will discuss these types in the next chapter.
 
 <hr/>
 
-[Next Chapter: Types of ML Algorithms](https://github.com/pbharathreddy/Machine-Learning/tree/master/typesOfMLAlgorithms) 
+[Next Chapter: Types of ML Algorithms](https://github.com/pbharathreddy/Machine-Learning/tree/master/Introduction/typesOfMLAlgorithms) 
  
 
