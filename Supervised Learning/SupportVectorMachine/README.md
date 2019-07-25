@@ -109,4 +109,4 @@ temp = SVM(data)
 temp.visualize(data, [0, 0])
 ```
 
-![svm](../images/svm.png)
+![svm](../../images/svm.png)
