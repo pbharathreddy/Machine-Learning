@@ -19,7 +19,7 @@ Supervised learning is the first type of problem discussed above. When a model i
 A classification problem is when our y, the output variable, the dependent variable or any name which you like the best, is a **categorical** variable and using the features you have to predict the label belonging to one class or the other, while a **regression** problem is when the label is a continuous value and not belonging to a certain class, having a big possibility of values. More on that later.
 
 
-![Spoon-feeding image](../images/spoon-feeding.jpg)
+![Spoon-feeding image](../../images/spoon-feeding.jpg)
 Enough of spoon-feeding! Now let’s go to the second algorithm, unsupervised!
 
 ## 2. Unsupervised learning:
