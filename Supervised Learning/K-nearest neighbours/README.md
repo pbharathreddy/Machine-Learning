@@ -35,4 +35,4 @@ plt.show()
 ```
 
 ## Result:
-![alt text](../images/resultKNearestNeigh.png)
+![alt text](../../images/resultKNearestNeigh.png)
