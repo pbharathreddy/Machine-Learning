@@ -28,15 +28,15 @@ Let’s take an example to understand the phases of learning, say we want to tra
 
 ### Phase 1:
 It figures out that it has detected a human figure but it can’t distinguish between them yet
-
-![Phase 1](images/1.1.JPG)
-
+<p align="center">
+ <img src="images/1.1.JPG" alt="Phase 1"/>
+</p>
 
 ### Phase 2:
 In the last phase, it took only 1 input, that is the shape of the object, now it is taking 2, the expressions as well, so now it is able to distinguish between 2 different entries
-
-![Phase 2](images/1.2.JPG)
-
+<p align="center">
+ <img src="images/1.2.JPG" alt="Phase 2"/>
+</p>
 ### Phase 3:
 In this phase, the model will gather the predicted data for future reference (training), It labels these findings so here the individual and expressions are known as **features** and Person 1-2  is known as **labels** and the gathered data is called an **observation**, in simple words, rows of a database.
 
