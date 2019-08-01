@@ -22,7 +22,7 @@ A classification problem is when our y, the output variable, the dependent varia
 <p align="center">
 <img width=300 src="../../images/spoon-feeding.jpg" alt="Spoon-feeding image" />
 </p>
-Enough of spoon-feeding! Now let’s go to the second algorithm, unsupervised!
+Enough of spoon-feeding! Now let’s get unsupervised!
 
 ## 2. Unsupervised learning:
 The second type is unsupervised learning. When we **only** have features and not labels for training, it is called unsupervised. It can be used to solve the following types of problems:
