@@ -37,6 +37,7 @@ In the last phase, it took only 1 input, that is the shape of the object, now it
 <p align="center">
  <img src="images/1.2.JPG" alt="Phase 2"/>
 </p>
+
 ### Phase 3:
 In this phase, the model will gather the predicted data for future reference (training), It labels these findings so here the individual and expressions are known as **features** and Person 1-2  is known as **labels** and the gathered data is called an **observation**, in simple words, rows of a database.
 
