@@ -8,7 +8,9 @@ _A detailed guid into machine learning with python._
 
 You might think, what is the requirement to learn about ML, or even why a machine should learn, because at the end of the day it will be threat to our jobs, right? But, we need to understant the sector that ML predominantly influences. ML is not on the hunt for jobs, it's only out to take over the mundane and repetitive task that also require great accuracy and precision. This gives us humans more time that can be invested in things that are more intellectually demanding (And honestly ask yourself, would you rather let your emotions translate into a captivating song or spend a day cutting a peice of cloth precisely to one tenth of a millimeter). Let's face it there are certain things that machines are just better at than us and vice-versa. That is why we need to find a state of equilibrium or yin and yang between humans and machines.
 
-![AI](images/ai.jpg)
+<p align="center">
+ <img width=400 src="images/ai.jpg" alt="AI"/>
+</p>
 
 The main element required for the machine to learn is, well, something which is to be learned. And, that something is known as **data**.
 
