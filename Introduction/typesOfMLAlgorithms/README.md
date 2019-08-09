@@ -57,6 +57,7 @@ ID | Name | Hogwarts House | Height | Weight | Favourite subject | Blood Status 
 Here note that some of the features are not useful to predict the outcome, like the height and the weight, i.e. the appearance of the person does not decide whether they are a good person or bad (but in movies, they do!), so we can drop those columns. This decreases the complexity of our data and that way, we can focus on our problem easily. We can divide the process of reduction into 2 parts:
 1. Feature Selection
 1. Feature Extraction
+
 We will discuss these phases and the methods in detail in later chapters.
 
 ## Reinforcement Learning:
