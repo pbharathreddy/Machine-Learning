@@ -37,3 +37,25 @@ Clustering means categorizing the data points (i.e each row, observation, etc) i
 </p>
 
 In short, what the child did in our case is called clustering, more on that later.
+
+### Dimensionality Reduction:
+Dimensionality Reduction means, getting only those **columns/features** which are relevant to our problem and omitting other columns to reduce the complexity of the data. For example, let’s say our task is to predict from a given data of wizards and witches (yes, I am a potterhead!), which ones will go bad in the future. The data given has features / columns like Name, Hogwarts House (That might be the major feature to decide), Height, Weight, Favourite subject, Family, i.e. Muggle born or from a wizard family, and their Boggart (meaning, from what are they afraid of). 
+
+
+ID | Name | Hogwarts House | Height | Weight | Favourite subject | Blood Status | Boggart 
+--- | --- | --- | --- | --- | ---  | --- | --- 
+| 1 | Tom Riddle | Slytherin | 5’11’’ | 50 | Dark Arts | Half Blood | His own Corpse |
+| 2 | Harry Potter | Gryffindor | 5’8’’ | 65 | Defense against dark arts | Half Blood | Dementor |
+| 3 | Albus Dumbledore | Gryffindor | 5’11’’ | 70 | Transfigurations | Half Blood | Corpse of his sister |
+| 4 | Hermione Granger | Gryffindor | 5’4’’ | 60 | Charms | Muggle | Failure | 
+| 5 | Ronald Weasley | Gryffindor | 5’11’’ | 68 | Chess | Pure Blood | Spider | 
+| 6 | Draco Malfoy | Slytherin | 5’9’’ | 67 | Dark Arts | Pure Blood | Lord Voldemort |
+
+
+Here note that some of the features are not useful to predict the outcome, like the height and the weight, i.e. the appearance of the person does not decide whether they are a good person or bad (but in movies, they do!), so we can drop those columns. This decreases the complexity of our data and that way, we can focus on our problem easily. We can divide the process of reduction into 2 parts:
+1. Feature Selection
+1. Feature Extraction
+1. More on this later.
+
+## Reinforcement Learning:
+As shown in the third example, whether a method is right or wrong is determined by
