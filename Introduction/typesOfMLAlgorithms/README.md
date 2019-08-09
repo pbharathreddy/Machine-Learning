@@ -51,11 +51,11 @@ ID | Name | Hogwarts House | Height | Weight | Favourite subject | Blood Status 
 | 5 | Ronald Weasley | Gryffindor | 5’11’’ | 68 | Chess | Pure Blood | Spider | 
 | 6 | Draco Malfoy | Slytherin | 5’9’’ | 67 | Dark Arts | Pure Blood | Lord Voldemort |
 
-
+(Huffulpuff and Ravenclaw people (BTW I am a Ravenclaw as well!), don't get upset if you don't find your house name in this list, because to check if a wizard is good or bad, when it comes to the later groups, records say it has never happen! So, no need to check, cheers!!)
 Here note that some of the features are not useful to predict the outcome, like the height and the weight, i.e. the appearance of the person does not decide whether they are a good person or bad (but in movies, they do!), so we can drop those columns. This decreases the complexity of our data and that way, we can focus on our problem easily. We can divide the process of reduction into 2 parts:
 1. Feature Selection
 1. Feature Extraction
-1. More on this later.
+We will discuss these phases and the methods in detail in later chapters.
 
 ## Reinforcement Learning:
 As shown in the third example, whether a method is right or wrong is determined by
