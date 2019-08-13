@@ -60,7 +60,7 @@ Here note that some of the features are not useful to predict the outcome, like 
 
 We will discuss these phases and the methods in detail in later chapters.
 
-## Reinforcement Learning:
+## 3. Reinforcement Learning:
 As shown in the third example, this method is useful of stochastic environment, which are applicable for real world problems, where there are so much uncertainities and dynamically the decision has to be taken and whether the step taken was a positive or rewarding or negative can only be determined after taking that step and the next step should be taken after considering previously taken steps and figuring out patterns out of the historic data. The best example again is a human child, how it learns to spek it's native language by mimicking it's parents and observing the environement. The best example in machines would be the robo dogs. Prior to the AI based algorithm in robo dogs they used ta pre defined algorithm where it teaches the dog how to walk but it was not that effective, after using the machine learning techniques where the dog was only taught basic things which it can do and what is a good sign or progress or a reward that is taking a step further and what is the opposite, i.e. falling down it tried to took more of former steps than the later ones and that's how it stores what it learned and that way it was able to mimic the real dogs more aptly. This is called Reinforment learning and it consists of following things:
 1. Environment
 1. Agent
